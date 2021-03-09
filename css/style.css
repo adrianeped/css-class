@@ -31,6 +31,7 @@ html, body{
     width: 80vw;
     height: 85vh;
     overflow: scroll;
+    text-align: justify;
 }
 
 .side-content{
