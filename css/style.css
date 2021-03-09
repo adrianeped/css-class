@@ -41,8 +41,19 @@ html, body{
     height: 90vh;
 }
 
+.text-aside{
+    padding: 2em;
+    text-align: center;
+}
+
 .aside-list{
     list-style: none;
+}
+
+.aside-list li{
+    margin: 2rem 0;
+    background-color: rgba(224, 224, 224, 0.733);
+    width: fit-content;
 }
 
 .content{
