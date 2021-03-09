@@ -1,0 +1,61 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    /* padding: 0.5em; */
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(224, 224, 224, 0.733);
+} 
+.nav{
+    flex: 1;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.main-content{
+    padding: 0.5em;
+    width: 80vw;
+    height: 90vh;
+}
+
+.side-content{
+    width: 20vw;
+    position: fixed;
+    right: 0;
+    top: 5vh;
+    height: 90vh;
+}
+
+.aside-list{
+    list-style: none;
+}
+
+.content{
+    position: fixed;
+    width: 100vw;
+    height: 90vh;
+    top: 5vh;
+}
+
+.footer{
+    padding: 0.5em;
+    position: fixed;
+    height: 8vh;
+    width: 100vw;
+    bottom: 0;
+    background-color: rgba(224, 224, 224, 0.733);
+}
